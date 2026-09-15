@@ -1,14 +1,3 @@
-# nweb
-
-A modern, responsive test website built with clean HTML and CSS.
-
-## Features
-
-- 📱 Fully responsive design
-- 🎨 Modern gradient styling
-- 🧭 Easy navigation
-- 📋 Multiple content sections
-- ⚡ Fast and lightweight
 
 ## Quick Start
 
