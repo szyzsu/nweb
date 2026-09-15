@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        nav {
+            background-color: #333;
+            padding: 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #667eea;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+        }
+        
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        section p {
+            margin-bottom: 1rem;
+        }
+        
+        .card {
+            background: #f4f4f4;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to nweb</h1>
+        <p>Your Test Website</p>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>Welcome to nweb, a simple and elegant test website. This is your starting point for building an amazing web presence.</p>
+        </section>
+        
+        <section id="about">
+            <h2>About</h2>
+            <p>nweb is a clean, modern test website built with HTML. It provides a solid foundation for your web projects with responsive design and a professional appearance.</p>
+        </section>
+        
+        <section id="features">
+            <h2>Features</h2>
+            <div class="card">
+                <h3>Responsive Design</h3>
+                <p>Works seamlessly on desktop, tablet, and mobile devices.</p>
+            </div>
+            <div class="card">
+                <h3>Modern Styling</h3>
+                <p>Uses contemporary CSS techniques for an attractive appearance.</p>
+            </div>
+            <div class="card">
+                <h3>Easy to Customize</h3>
+                <p>Simple HTML structure makes it easy to modify and extend.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have questions? Feel free to reach out!</p>
+            <p>Email: <a href="mailto:contact@nweb.example">contact@nweb.example</a></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 nweb. All rights reserved.</p>
+    </footer>
+</body>
+</html>
